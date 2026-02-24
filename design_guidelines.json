@@ -1,0 +1,186 @@
+{
+  "brand_identity": {
+    "name": "CourseHub",
+    "archetype": "The Future Academy",
+    "tone": "Professional, Immersive, Focused, High-Tech",
+    "mission": "Empowering the next generation of builders with elite skills in a distraction-free environment.",
+    "core_values": [
+      "Clarity over decoration",
+      "Immersion over browsing",
+      "Progress over participation"
+    ]
+  },
+  "typography": {
+    "headings": {
+      "family": "Plus Jakarta Sans, sans-serif",
+      "weights": {
+        "h1": "800",
+        "h2": "700",
+        "h3": "600"
+      },
+      "tracking": "tracking-tight",
+      "line_height": "leading-none"
+    },
+    "body": {
+      "family": "Inter, sans-serif",
+      "weights": {
+        "normal": "400",
+        "medium": "500"
+      },
+      "tracking": "tracking-normal",
+      "line_height": "leading-relaxed"
+    },
+    "mono": {
+      "family": "JetBrains Mono, monospace",
+      "usage": "Code snippets, stats, technical labels"
+    }
+  },
+  "colors": {
+    "theme": "dark",
+    "palette": {
+      "background": {
+        "default": "#09090b",
+        "paper": "#18181b",
+        "subtle": "#27272a"
+      },
+      "primary": {
+        "DEFAULT": "#8b5cf6",
+        "foreground": "#ffffff",
+        "glow": "0 0 20px rgba(139, 92, 246, 0.5)"
+      },
+      "secondary": {
+        "DEFAULT": "#06b6d4",
+        "foreground": "#ffffff"
+      },
+      "accent": {
+        "purple": "#a78bfa",
+        "blue": "#38bdf8",
+        "pink": "#f472b6"
+      },
+      "text": {
+        "primary": "#f8fafc",
+        "secondary": "#94a3b8",
+        "muted": "#64748b"
+      },
+      "border": {
+        "subtle": "rgba(255, 255, 255, 0.08)",
+        "default": "rgba(255, 255, 255, 0.12)",
+        "active": "rgba(139, 92, 246, 0.5)"
+      },
+      "status": {
+        "success": "#10b981",
+        "warning": "#f59e0b",
+        "error": "#ef4444"
+      }
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": {
+      "card": "bg-zinc-900/60 backdrop-blur-xl border border-white/10",
+      "overlay": "bg-black/60 backdrop-blur-md",
+      "nav": "bg-background/80 backdrop-blur-lg border-b border-border"
+    },
+    "shadows": {
+      "glow": "shadow-[0_0_20px_-5px_rgba(139,92,246,0.3)]",
+      "subtle": "shadow-xl shadow-black/20"
+    },
+    "borders": {
+      "gradient_trace": "bg-gradient-to-r from-transparent via-purple-500 to-transparent opacity-20"
+    },
+    "textures": {
+      "noise": "url('/assets/noise.png') opacity-5"
+    }
+  },
+  "layout_strategy": {
+    "spacing": {
+      "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      "section_gap": "py-24",
+      "component_gap": "gap-8"
+    },
+    "grid_systems": {
+      "course_list": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+      "dashboard": "grid grid-cols-1 md:grid-cols-4 gap-6",
+      "bento_hero": "grid grid-cols-1 md:grid-cols-12 gap-4"
+    }
+  },
+  "assets": {
+    "hero_bg": "https://images.unsplash.com/photo-1746470427577-3520a681deab?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHRlY2hub2xvZ3klMjBmdXR1cmUlMjBibHVlJTIwcHVycGxlfGVufDB8fHx8MTc3MTk2MDUwNHww&ixlib=rb-4.1.0&q=85",
+    "categories": {
+      "web_dev": "https://images.unsplash.com/photo-1738255654134-1877cb984a8f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwzfHxjb2RpbmclMjBwcm9ncmFtbWluZyUyMHNjcmVlbiUyMGRhcmt8ZW58MHx8fHwxNzcxOTYwNTA1fDA&ixlib=rb-4.1.0&q=85",
+      "data_science": "https://images.pexels.com/photos/17484901/pexels-photo-17484901.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "design": "https://images.unsplash.com/photo-1764737740462-2a310c7b2c39?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwyfHxjcmVhdGl2ZSUyMHdvcmtzcGFjZSUyMGRlc2lnbmVyJTIwbW9uaXRvcnxlbnwwfHx8fDE3NzE5NjA1MDd8MA&ixlib=rb-4.1.0&q=85"
+    },
+    "user": {
+      "avatar": "https://images.unsplash.com/photo-1758518727888-ffa196002e59?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMHBvcnRyYWl0JTIwYnVzaW5lc3N8ZW58MHx8fHwxNzcxOTYwNTA4fDA&ixlib=rb-4.1.0&q=85"
+    },
+    "misc": {
+      "certificate_pattern": "https://images.pexels.com/photos/28428591/pexels-photo-28428591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    }
+  },
+  "components": {
+    "CourseCard": {
+      "style": "group relative overflow-hidden rounded-2xl bg-zinc-900 border border-zinc-800 transition-all hover:border-purple-500/50 hover:shadow-[0_0_30px_-10px_rgba(139,92,246,0.3)]",
+      "image_style": "aspect-video w-full object-cover transition-transform duration-500 group-hover:scale-105",
+      "content_padding": "p-6",
+      "button_style": "w-full mt-4 bg-white/5 hover:bg-white/10 text-white border border-white/10"
+    },
+    "Button": {
+      "primary": "bg-purple-600 hover:bg-purple-500 text-white shadow-[0_0_15px_-3px_rgba(139,92,246,0.4)] transition-all hover:scale-[1.02] active:scale-[0.98]",
+      "outline": "border border-zinc-700 hover:border-zinc-500 bg-transparent text-zinc-100",
+      "ghost": "hover:bg-zinc-800 text-zinc-300 hover:text-white"
+    },
+    "Input": {
+      "base": "bg-zinc-900/50 border-zinc-800 focus:border-purple-500/50 focus:ring-1 focus:ring-purple-500/50 text-white placeholder:text-zinc-600"
+    },
+    "Badge": {
+      "base": "inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2",
+      "variants": {
+        "purple": "border-purple-500/20 bg-purple-500/10 text-purple-400",
+        "blue": "border-blue-500/20 bg-blue-500/10 text-blue-400",
+        "green": "border-green-500/20 bg-green-500/10 text-green-400"
+      }
+    }
+  },
+  "accessibility": {
+    "focus_ring": "focus-visible:ring-2 focus-visible:ring-purple-500 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950",
+    "text_contrast": "Ensure all text meets WCAG AA (4.5:1) against background. Use text-zinc-400 on zinc-900, not darker."
+  },
+  "animation_guidelines": {
+    "transitions": "transition-all duration-300 ease-out",
+    "micro_interactions": {
+      "hover_lift": "hover:-translate-y-1",
+      "hover_glow": "hover:shadow-lg hover:shadow-purple-500/20"
+    },
+    "page_transition": {
+      "initial": { "opacity": 0, "y": 20 },
+      "animate": { "opacity": 1, "y": 0 },
+      "exit": { "opacity": 0, "y": -20 }
+    }
+  },
+  "instructions_to_main_agent": [
+    "Strictly follow the dark theme palette. Do not use white backgrounds anywhere.",
+    "Use the provided image URLs for specific categories.",
+    "Implement the 'Glassmorphism' style for the Navigation bar and floating cards.",
+    "Use 'Plus Jakarta Sans' for all Headings (H1-H3) and 'Inter' for body text.",
+    "Ensure all interactive elements have data-testid attributes.",
+    "Mock data should be comprehensive and use the images provided in assets.",
+    "The Dashboard must use the 'High Density Grid' layout defined in layout_strategy.",
+    "Login/Register pages should be centered with a glassmorphic card on a rich background (use hero_bg with low opacity).",
+    "Do not use generic 'blue' for links/buttons; use the brand 'Purple' or 'Cyan' accents.",
+    "For the 'Purchased Courses' in Dashboard, use a list view with progress bars.",
+    "Certificates section should use the 'certificate_pattern' as a subtle background."
+  ],
+  "universal_guidelines": {
+    "do_not": [
+      "Use generic browser alerts.",
+      "Use gradients for text unless it's a very large H1.",
+      "Use pure black (#000000) for backgrounds.",
+      "Center text in long paragraphs."
+    ],
+    "must_do": [
+      "Use Sonner for toasts.",
+      "Add 'aria-label' to icon-only buttons.",
+      "Make sure the mobile menu is fully functional and uses a sheet/drawer pattern."
+    ]
+  }
+}
